@@ -3,7 +3,7 @@ s = list(input())
 result = []
 while len(s) != 0:
     if len(s) == 1:
-        result.append(s[1])
+        result.append(s[0])
         break
     word = s[0] + s[1]
     if word in data:
